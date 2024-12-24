@@ -25,17 +25,24 @@ venv/
 env/
 ENV/
 
-# IDE
+# IDEs
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# Streamlit
-.streamlit/secrets.toml
-
-# Local development
-*.db
-*.sqlite3
+# Local Development
 .env
+.streamlit/secrets.toml
+resources.db
+deployment_resources/
+browser_profiles.json
 config.py
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
